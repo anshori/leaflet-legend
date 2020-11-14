@@ -17,3 +17,6 @@ html, body, #map {
 .github-fork-ribbon.right-bottom:before {
   background-color: #090;
 }
+.imglegend {
+  opacity: 0.8;
+}
