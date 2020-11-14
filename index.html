@@ -8,6 +8,7 @@
 	
 	<link rel="icon" type="image/x-icon" href="assets/img/icon.png" />
 
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-fork-ribbon-css/0.2.3/gh-fork-ribbon.min.css" />
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
 	<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
 	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
@@ -28,9 +29,16 @@
 			margin: 0 0 5px;
 			color: #777;
 		}
+		.github-fork-ribbon.right-bottom:before {
+			background-color: #090;
+		}
 	</style>
 	</head>
 	<body>
+		<a class="github-fork-ribbon right-bottom fixed" href="https://github.com/anshori/leaflet-legend" data-ribbon="Fork me on GitHub" title="Fork me on GitHub">
+			Fork me on GitHub
+		</a>
+
 		<div id='map'></div>
 
 		<script type="text/javascript">
